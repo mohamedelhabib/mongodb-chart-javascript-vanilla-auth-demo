@@ -25,6 +25,7 @@
         <div class="title">Mongo Chart Embedded</div>
         <div class="topnav-right">
           <button id="logoutButton">Log Out</button>
+          <button id="refreshButton">Refresh</button>
         </div>
       </div>
 
@@ -50,13 +51,19 @@
         </div>
       </div>
       <div class="chart-container">
-        <div id="chart"></div>
+        <div id="chart_zip" class="chart"></div>
+        <div id="chart_cuisine" class="chart"></div>
+        <div id="chart_score" class="chart"></div>
+        <div id="chart" class="chart"></div>
       </div>
     </main>
     <script>
       const APP_ID = "application-0-vzdvx";
       const BASE_URL = "https://charts.mongodb.com/charts-project-0-nrpes";
       const CHART_ID = "621ce9c4-283b-4497-84de-b1c235f65478";
+      const CHART_ID_ZIP = "621da192-4bd7-4209-8326-c03a45f00bb7";
+      const CHART_ID_CUISINE = "796a6dab-1e08-49e9-9767-4fbfb3d708c4";
+      const CHART_ID_SCORE = "f01e0bf9-0e6d-4a4f-b7a4-7f195aa634aa";
     </script>
     <script src="assets/index.js"></script>
   </body>
